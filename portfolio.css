@@ -1,0 +1,107 @@
+.acceuil{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#nav{
+    border: cornflowerblue; height: 50px;
+    background-color: darkgrey;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+}
+
+.cv{
+    display: flex;
+    justify-content: center;
+}
+button{
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    color: white;
+    margin-top: 20px;
+    background-color: royalblue;
+}
+.flex-container{
+    display:grid;
+    grid-template-column:auto auto auto;
+    grid: gap 10px;
+    padding: 10px;
+}
+.flex-container>div{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1{
+    grid-column: 1/4;
+}
+#interet{
+    text-align: center;
+}
+#image{
+    background-image: url(https://maisonscreoles.net/wp-content/uploads/2019/05/MC125-Guadeloupe971-5.jpg);
+}
+    
+}
+.maj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-image: url(https://i.pinimg.com/564x/a2/95/bb/a295bb333f2bf22a43731d4997e30361.jpg);
+    font-size: 70px;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:70px;
+    padding: 10px;
+    margin-top: 20px;
+    background-image: url(https://image.freepik.com/vecteurs-libre/bureau-design-web_23-2147503034.jpg);
+
+}
+.footer>div{
+    text-align: center;
+    background-color:white;
+
+}
+.strong{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid: gap 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: turquoise;
+}
+.strong>div{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.item1{
+    grid-column: 1/4;
+}
+#adres{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/originals/d8/f6/32/d8f6329ce309a3c76f5fd40d766174c3.png);
+
+}
+#adr{
+    width: 100;
+    height: 200px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid: gap 10px;
+    background-color: mediumaquamarine;
+}
